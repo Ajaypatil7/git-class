@@ -12,3 +12,5 @@ time.sleep(5)
 driver.maximize_window()
 time.sleep(5)
 driver.close()
+
+print("Hello World")
