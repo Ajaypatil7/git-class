@@ -1,0 +1,38 @@
+WORKING WITH GITHUB  :- 
+
+
+        
+
+   
+
+
+
+
+git init            :-    It is used to create a ".git" hidden file in the project folder. (It is an empty git file)
+                            It is used to initialize the local repository. 
+
+git config --global user.name "GitHub USERNAME"  :- 
+                           This command is used to set up the user name for that git Hub repository. 
+                           We need to pass the username of the git account where we are trying to push our code. 
+
+git config --global user.email "GitHub EMAIL"   :- 
+                          This command is used to set up the email for that git Hub repository. 
+                           We need to pass the email which is linked with that git hub account. 
+ 
+git status  :- This command is used to show the files which are Tracked and the files which are not Tracked.  
+                    In short it shows the status of the files. 
+
+
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Ajaypatil7/django2.git
+git push -u origin main
+
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Ajaypatil7/django2.git
+git branch -M main
+git push -u origin main
